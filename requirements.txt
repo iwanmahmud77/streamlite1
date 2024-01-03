@@ -1,5 +1,5 @@
-numpy
-streamlit
-pandas
-pickle
-Pillow
+numpy==1.26.2
+streamlit 
+pandas==2.1.4
+pickleshare==0.7.5
+Pillow==10.1.0
