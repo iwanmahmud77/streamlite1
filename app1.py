@@ -9,7 +9,8 @@ classifier=pickle.load(pickle_in)
 
 def predict_note_authentication(variance,skewness,curtosis,entropy):
     prediction=classifier.predict([[variance,skewness,curtosis,entropy]])
-
+    print(prediction)
+    return prediction
 
 def main():
     st.title("Bank Authenticator")
